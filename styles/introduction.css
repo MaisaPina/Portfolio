@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+}
+
+.position{
+  width: 100%;
+  background-color: yellowgreen;
+  /* max-width: 741px; */
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.linkedin {
+  width: 200px;
+  height: 50px;
+  /* background-color:#8E5D52; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 62px;
+  background: #067471;
+}
+
+.linkedin a {
+  width: 28%;
+  padding: 25px;
+  color:white;
+}
+
+/*Maísa: fazer mexer*/
+/* @keyframes imagem {
+  from {
+      top:-15px;
+  }
+  to {
+      top: 25px;
+  }
+} */
+
+.me {
+  width: 200px;
+  /* animation: imagem 2.1s infinite alternate-reverse linear; */ /*Maísa: fazer mexer*/
+}
