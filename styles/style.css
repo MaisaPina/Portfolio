@@ -52,14 +52,19 @@ ul {
 a {
   text-decoration: none;
   display: block;
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 16,5px;
   transition: ease-in-out 0.3s;
+  padding: 8px;
 }
 
 a:hover {
   color: #AD2749;
   }
+
+.header-rigth{
+  width: 40px;
+}
 
 /* HEADER END */
 
