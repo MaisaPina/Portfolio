@@ -17,17 +17,19 @@
       <!-- header START -->
       <header class="header">
         <div class="header-container">
-          <div class="header-rigth">
-            <a href="index.html"><img src="/assets/star.svg" alt="logo" /></a>
+          <div class="container">
+            <div class="header-rigth">
+              <a href="index.html"><img src="/assets/star.svg" alt="logo" /></a>
+            </div>
+            <nav class="header-left">
+              <ul onclick="getElementById('close-menu').checked=false;">
+                <li><a href="#start">START</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+              </ul>
+            </nav>
           </div>
-          <nav class="header-left">
-            <ul onclick="getElementById('close-menu').checked=false;">
-              <li><a href="#start">START</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#skills">SKILLS</a></li>
-            </ul>
-          </nav>
         </div>
       </header>
       <!-- header END -->
@@ -64,18 +66,26 @@
       <!-- about START -->
       <section id="about">
         <div id="about">
-          <br />
-          <h2>About me</h2>
-          <br />
-          <p>
-            My name is Maísa Oliveira Pina.
-            I have a degree in Information Systems, I have some courses in the area of ​​software development.
-            I've worked with Web Development and APIs.
-          </p>
-          <br />
-          <p>
-            Today I already understand and continue to study technologies such as CSS, JS, HTML, NODE, REACT AND OTHERS.
-          </p>
+          <div class="mypicture">
+            <img
+              class="img"
+              src="/assets/programa.png"
+              alt="my_picture"
+            />
+          </div>
+          <div class="about">
+            <h2>About me</h2>
+            <br />
+            <p>
+              My name is Maísa Oliveira Pina.
+              I have a degree in Information Systems, I have some courses in the area of software development.
+              I've worked with Web Development and APIs.
+            </p>
+            <br />
+            <p>
+              Today I already understand and continue to study technologies such as CSS, JS, HTML, NODE, REACT AND OTHERS.
+            </p>
+          </div>
         </div>
       </section>
       <!-- about END -->

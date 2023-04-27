@@ -1,6 +1,34 @@
 #about {
   width: 100%;
-  background-color: #493737;
+  background-color: #2a2a2b;
   color:white;
-  padding: 10px;
+  /* padding: 20px 10px 50px 10px; */
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 600px;
+}
+
+.about p {
+  text-indent: 30px;
+  font-size: 20px;
+  max-width: 610px;
+  color: white;
+}
+
+/*Maísa: fazer mexer*/
+/* @keyframes imagem {
+  from {
+      top:-15px;
+  }
+  to {
+      top: 25px;
+  }
+} */
+
+.img {
+  width: 200px;
+  padding-right: 40px;
+  /* animation: imagem 2.1s infinite alternate-reverse linear; */ /*Maísa: fazer mexer*/
 }
