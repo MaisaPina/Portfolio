@@ -4,10 +4,7 @@
 
 /* HEADER START */
 header{
-  /* background: #067471; */
-  /* background: #AD2749; */
   width: 100%;
-  /* padding: 10px; */
   font-family: 'Courier New', Courier, monospace;
   font-weight: 900;
 }
@@ -74,7 +71,7 @@ footer {
   /* flex-direction: column; */
   /* padding-bottom: 10px;   */
   width: 100%;
-  background-color:#067471;
+  background-color:#808084;
   /* justify-content: space-between; */
   /* align-items: center; */
   /* color: white; */
@@ -93,5 +90,5 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} 
 /* FOOTER END */
