@@ -49,7 +49,7 @@ ul {
   flex-wrap: wrap;
 }
 
-a {
+.menu-button {
   text-decoration: none;
   display: block;
   color: white;
@@ -58,9 +58,9 @@ a {
   padding: 8px;
 }
 
-a:hover {
+.menu-button:hover {
   color: #AD2749;
-  }
+}
 
 .header-rigth{
   width: 40px;
