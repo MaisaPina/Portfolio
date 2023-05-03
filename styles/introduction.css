@@ -29,11 +29,16 @@
   font-size: 20px;
 }
 
+.linkedin-introduction:hover {
+  background: #ad3352;
+}
+
 .linkedin-introduction-button {
   /* width: 33%; */
   padding: 25px;
   color:white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /*Maísa: fazer mexer*/

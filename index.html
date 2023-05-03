@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Para criar animações (faço uso dele dentro do scrollreveal.js)-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="styles/style.css" />
-    <!-- Navegação e início -->
     <link rel="stylesheet" href="/styles/introduction.css" />
     <link rel="stylesheet" href="/styles/about.css" />
     <link rel="stylesheet" href="/styles/projects.css" />
@@ -67,7 +68,7 @@
       <!-- about START -->
       <section id="about">
         <div id="about">
-          <div class="mypicture">
+          <div class="picture">
             <img
               class="img"
               src="/assets/programa.png"
@@ -95,17 +96,32 @@
       <section id="projects">
         <div id="projects">
           <br />
-          <h2>Projects</h2>
+          <h2 class="projects">Projects</h2>
           <br />
           <div class="projects-itens">
             <div class="project">
-              <div class="pro"><p>Pretty Soon</p></div>
+              <!-- <div class="pro"><p>Pretty Soon</p></div> -->
+              <img
+                class="icons-projects"
+                src="/assets/em-breve.png"
+                alt="html-icon"
+              />
             </div>
             <div class="project">
-              <div class="pro"><p>Pretty Soon</p></div>
+              <!-- <div class="pro"><p>Pretty Soon</p></div> -->
+              <img
+                class="icons-projects"
+                src="/assets/em-breve.png"
+                alt="html-icon"
+              />
             </div>
             <div class="project">
-              <div class="pro"><p>Pretty Soon</p></div>
+              <!-- <div class="pro"><p>Pretty Soon</p></div> -->
+              <img
+                class="icons-projects"
+                src="/assets/em-breve.png"
+                alt="html-icon"
+              />
             </div>
           </div>
           <div class="github-projects">
@@ -123,57 +139,86 @@
       <section id="skills">
         <div id="skills">
           <br/>
-          <h2>Skills</h2>
+          <h2 class="skills">Skills</h2>
           <br/>
           <br/>
           <br/>
+
           <div class="icons">
-            <img
-              class="icons-skills"
-              src="/assets/html-5.png"
-              alt="html-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/css-3.png"
-              alt="css-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/php.png"
-              alt="php-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/script-java (1).png"
-              alt="javascript-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/nodejs.png"
-              alt="nodejs-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/do-sustenido.png"
-              alt="csharp-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/git.png"
-              alt="git-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/placa-do-github.png"
-              alt="github-icon"
-            />
-            <img
-              class="icons-skills"
-              src="/assets/java.png"
-              alt="java-icon"
-            />
+            <div class="skill-icon skill1 skill-html">
+              <img
+                class="icons-skills"
+                src="/assets/html-5.png"
+                alt="html-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill2 skill-css">
+              <img
+                class="icons-skills"
+                src="/assets/css-3.png"
+                alt="css-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill3 skill-php">
+              <img
+                class="icons-skills"
+                src="/assets/php.png"
+                alt="php-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill4 skill-javascript">
+              <img
+                class="icons-skills"
+                src="/assets/script-java (1).png"
+                alt="javascript-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill5 skill-node">
+              <img
+                class="icons-skills"
+                src="/assets/nodejs.png"
+                alt="nodejs-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill6 skill-csharp">
+              <img
+                class="icons-skills"
+                src="/assets/do-sustenido.png"
+                alt="csharp-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill7 skill-java">
+              <img
+                class="icons-skills"
+                src="/assets/java.png"
+                alt="java-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill8 skill-git">
+              <img
+                class="icons-skills"
+                src="/assets/git.png"
+                alt="git-icon"
+              />
+            </div>
+
+            <div class="skill-icon skill9 skill-github">
+              <img
+                class="icons-skills"
+                src="/assets/placa-do-github.png"
+                alt="github-icon"
+              />
+            </div>
+            
           </div>
+
           <br/>
           <br/>
           <br/>
@@ -212,5 +257,7 @@
       </footer>
       <!-- footer END -->
     </div>
+    <script src="./js/skills.js"></script>
+    <script src="./js/scrollreveal.js"></script>
   </body>
 </html>

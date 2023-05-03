@@ -33,6 +33,13 @@
   transition: ease-in-out 0.3s;
 }
 
+.icons-projects {
+  height: 80px;
+  /* width: 80px; */
+  /* padding: 10px; */
+  cursor: pointer;
+}
+
 .pro{
   background-color: #2a2a2b;
   padding: 10px;
@@ -49,9 +56,14 @@
   background: #AD2749;
 }
 
+.github-projects:hover {
+  background: #ad3352;
+}
+
 .github-projects-button {
   /* width: 28%; */
   /* padding: 25px; */
   color:white;
   text-decoration: none;
+  cursor: pointer;
 }
