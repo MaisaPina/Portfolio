@@ -1,13 +1,13 @@
 #about {
   width: 100%;
-  background-color: #2a2a2b;
+  background-color: #343435;
   color:white;
   /* padding: 20px 10px 50px 10px; */
   font-size: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 600px;
+  height: 650px;
 }
 
 .about p {
