@@ -18,18 +18,38 @@
   color: white;
 }
 
-/*Maísa: fazer mexer*/
-/* @keyframes imagem {
-  from {
-      top:-15px;
-  }
-  to {
-      top: 25px;
-  }
-} */
-
 .img {
   width: 200px;
   padding-right: 40px;
-  /* animation: imagem 2.1s infinite alternate-reverse linear; */ /*Maísa: fazer mexer*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #about {
+    padding-right: 20px;
+  }
+  
+  .img {
+    width: 180px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    padding: 15px;
+    font-size: 20px;
+    height: 600px;
+    flex-direction: column;
+  }
+  
+  .about p {
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  
+  .img {
+    padding-top: 20px;
+    width: 100px;
+  }
 }

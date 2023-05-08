@@ -5,12 +5,10 @@
 .position{
   width: 100%;
   background-color: #2a2a2b;
-  /* max-width: 741px; */
   color:white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* padding: 10px; */
   padding-top: 70px;
   font-size: 50px;
   height: 600px;
@@ -24,7 +22,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 62px;
-  /* background: #067471; */
   background: #AD2749;
   font-size: 20px;
   overflow-y: hidden;
@@ -35,25 +32,112 @@
 }
 
 .linkedin-introduction-button {
-  /* width: 33%; */
   padding: 25px;
   color:white;
   text-decoration: none;
   cursor: pointer;
 }
 
-/*Maísa: fazer mexer*/
-/* @keyframes imagem {
-  from {
-      top:-15px;
-  }
-  to {
-      top: 25px;
-  }
-} */
-
 .me {
   width: 200px;
   border-radius: 6px;
-  /* animation: imagem 2.1s infinite alternate-reverse linear; */ /*Maísa: fazer mexer*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
+  .position{
+    width: 100%;
+    background-color: #2a2a2b;
+    /* background-color: #AD2749; */
+    color:white;
+    display: flex;
+    /* flex-direction: column; */
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 130px;
+    font-size: 25px;
+    height: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: #273fad; */
+  }
+  
+   .linkedin-introduction {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #AD2749;
+    font-size: 20px;
+  }
+  
+  .linkedin-introduction:hover {
+    background: #ad3352;
+  }
+  
+  .linkedin-introduction-button {
+    padding: 25px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+  }/**/
+  
+  .me {
+    width: 200px;
+    border-radius: 6px;
+  } 
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .position{
+    width: 100%;
+    background-color: #2a2a2b;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 130px;
+    font-size: 25px;
+    height: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: #273fad; */
+  }
+  
+   .linkedin-introduction {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #AD2749;
+    font-size: 20px;
+  }
+  
+  .linkedin-introduction:hover {
+    background: #ad3352;
+  }
+  
+  .linkedin-introduction-button {
+    padding: 25px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .me {
+    width: 200px;
+    border-radius: 6px;
+  } 
+
+  .introduction{
+    padding-bottom: 10px;
+  }
+  
 }

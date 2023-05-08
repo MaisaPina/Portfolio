@@ -84,3 +84,51 @@ footer {
   align-items: center;
 } 
 /* FOOTER END */
+
+/*media query*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header{
+    font-size: 18px;
+  }
+
+  .container{
+    justify-content: center;
+    padding-right: 40px;
+  }
+
+  .header-rigth{
+    width: 25px;
+  }
+
+  footer{
+    padding: 10px;
+  }
+  .footer-links-icons {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    font-size: 12px;
+  }
+
+  .container{
+    justify-content: center;
+    padding-right: 40px;
+  }
+
+  .header-rigth{
+    width: 18px;
+  }
+
+  footer{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .footer-links-icons {
+    display: flex;
+    gap: 15px;
+    padding-right: 20px;
+  }
+}
