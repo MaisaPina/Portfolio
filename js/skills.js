@@ -1,33 +1,26 @@
 console.log('Hello World')
 const skills = document.querySelectorAll('.skill-icon')
-// console.log(' Qual é a Skill: ')
-// console.log(skills)
 const description = document.querySelector('.text-description')
-// console.log(' Qual é a descrição: ')
-// console.log(description)
 
 const description_Skill = [
-  '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na web.</p> <br>',
+  '<p>HTML</p> <br> <p>It is a markup language used to build web pages.</p> <br>',
 
-  '<p>CSS</p> <br> <p>É um mecanismo para adicionar estilos a uma página web.</p> <br>',
+  '<p>CSS</p> <br> <p>It is a mechanism for adding styles to a web page.</p> <br>',
 
-  '<p>PHP</p> <br> <p>É uma linguagem de programa interpretada livre.</p> <br>',
+  '<p>PHP</p> <br> <p>It is a free interpreted programming language.</p> <br>',
 
-  '<p>Java Script</p> <br> <p>É uma linguagem de programação interpretada estruturada.</p> <br>',
+  '<p>Java Script</p> <br> <p>It is a structured interpreted programming language.</p> <br>',
 
-  '<p>Node.Js</p> <br> <p>É um software de código aberto, multiplataforma.</p> <br>',
+  '<p>Node.Js</p> <br> <p>It is open-source, cross-platform software.</p> <br>',
 
-  '<p>C#</p> <br> <p>É uma linguagem de programação, multiparadigma, de tipagem forte.</p> <br>',
+  '<p>C#</p> <br> <p>It is a programming language, multiparadigm, strongly typed.</p> <br>',
 
-  '<p>Java</p> <br> <p>É uma linguagem de programação orientada a objetos.</p> <br>',
+  '<p>Java</p> <br> <p>It is an object-oriented programming language.</p> <br>',
 
-  '<p>Git</p> <br> <p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>',
+  '<p>Git</p> <br> <p>It is a distributed version control system, mainly used in software development.</p> <br>',
 
-  '<p>Github</p> <br> <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>'
+  '<p>Github</p> <br> <p>It is a source code and file hosting platform with version control using Git. </p> <br>'
 ]
-
-// console.log(' Array de Descrições: ')
-// console.log(description_Skill)
 
 skills.forEach((elemento, index) => {
   var index = index
@@ -37,7 +30,6 @@ skills.forEach((elemento, index) => {
   })
 
   elemento.addEventListener('mouseout', (evento, elemento) => {
-    description.innerHTML =
-      '/* Passe o mouse por cima de alguma habilidade para ler a descrição */'
+    description.innerHTML = '( Mouse over a skill to read the description )'
   })
 })

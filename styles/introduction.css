@@ -27,6 +27,7 @@
   /* background: #067471; */
   background: #AD2749;
   font-size: 20px;
+  overflow-y: hidden;
 }
 
 .linkedin-introduction:hover {
